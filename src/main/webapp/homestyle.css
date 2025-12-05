@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body { 
+    background:
+        linear-gradient(rgba(0,0,0,0.35), rgba(0,0,0,0.35)),
+        url("ImagemHome.png");
+    background-size: cover;
+    background-position: center;
+    
+}
+
+/* HEADER */
+header {
+    width: 100%;
+    padding: 20px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #4FA58F;
+    border-bottom: 1px solid #e3e3e3;
+}
+
+header .logo {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #1E1E1E;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #ffffff; /* verde suave */
+}
+
+/* HERO */
+.hero {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 40px;
+}
+
+.hero h1 { 
+    color: #ffffff;
+    font-size: 60px;
+    font-weight: bold;
+    margin-bottom: 10px; 
+    
+
+}
+
+.hero p { 
+    color: #ffffff; 
+    font-size: 30px;
+    font-weight: bolder;
+    margin-bottom: 30px;
+   
+}
+
+/* BOTÕES */
+.botoes {  
+    margin-top: 25px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.btn {
+    padding: 24px 64px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+/* Botão login */
+.btn.login {
+    background: #4FA58F;
+    color: white;
+}
+
+.btn.login:hover {
+    background: #3C7A6F;
+}
+
+/* Botão cadastro */
+.btn.cadastro {
+    background: #FFFFFF;
+    border: 2px solid #4FA58F;
+    color: #4FA58F;
+}
+
+.btn.cadastro:hover {
+    background: #4FA58F;
+    color: white;
+}
